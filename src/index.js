@@ -49,7 +49,7 @@ function createPromise(delay) {
   return new Promise((res, rej) => {
     setTimeout(() => {
       const random = Math.random();
-      const arr = ['seven', 'banan'];
+      const arr = ['seven'];
       const first = Math.floor(Math.random() * 10);
       if (random > 0.5) {
         res('banan');
